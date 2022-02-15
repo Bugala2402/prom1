@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <script src="./prom1.js"></script>
+  <title>HEALTHY.IO-EX1</title>
+  <link rel="stylesheet" href="./prom1.css">
+</head>
+
+<body>
+  
+  <div class="container">
+    <h3 id="h">Please enter bitmap size:</h3>
+    <div>
+      <input type="number" id="number1" class="input">
+      <input type="number" id="number2" class="input">
+    </div>
+    <button id="btn1" class= "button" onclick="fillmatrix()" >RANDOMIZE</button>
+    <div id="matrix"> </div>
+    <button id="btn2" class="button hide-button" onclick="findCount(number1,number2)" >solve</button>
+    <p id="foundIslands"> </p>
+    <button  id="btn3" class="button hide-button"  onclick="sc1()" value="Reset form">RESTART</button>
+  </div>
+
+</body>
+
+</html>
