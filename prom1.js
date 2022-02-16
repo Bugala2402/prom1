@@ -125,6 +125,8 @@ function draw()
       d = t.getElementsByTagName("tr")[iPoint]
       r = d.getElementsByTagName("td")[jPoint];
       r.style=color
+      r.width=30 
+      r.height=30
     }
 }
 
@@ -132,7 +134,7 @@ function draw()
 function random_rgba() {
     var o = Math.round, r = Math.random, s = 255;
     return 'rgb(' + o(r() * s) + ',' + o(r() * s) + ',' + o(r() * s) + ',' + r().toFixed(1) + ')'
-    //Math.floor(Math.random()*16777215).toString(16);
+
 }
 
 
